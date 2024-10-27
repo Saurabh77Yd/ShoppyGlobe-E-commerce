@@ -1,0 +1,25 @@
+.search-box {
+  display: flex;
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  justify-self: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.product-item {
+  flex: 1 1 200px;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.352);
+  border-radius: 8px;
+}
